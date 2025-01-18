@@ -1,0 +1,18 @@
+[project]
+name = "test-case-wallet"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Acejkee",email = "belousow.ilja@yandex.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "django (==4.2)",
+    "djangorestframework (==3.14)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
