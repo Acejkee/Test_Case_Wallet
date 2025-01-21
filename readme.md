@@ -45,9 +45,9 @@ docker compose exec web bash
 Теперь внутри контейнера выполните следующие команды:
 
 ```bash
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
+poetry run python manage.py makemigrations
+poetry run python manage.py migrate
+poetry run python manage.py createsuperuser
 ```
 
 Следуйте инструкциям на экране для создания суперпользователя.
